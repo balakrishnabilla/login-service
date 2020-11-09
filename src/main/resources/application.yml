@@ -1,0 +1,13 @@
+debug: true
+server:
+  port: 8080
+spring:
+  application:
+    name: login-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
